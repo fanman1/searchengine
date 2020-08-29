@@ -1,0 +1,99 @@
+body {
+    font-family: arial,sans-serif;
+    }
+    .outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+    }
+    
+    .middle {
+    display: table-cell;
+    vertical-align: middle;
+    }
+    
+    .inner {
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 300px;
+    /*border: 1px white;*/
+    top: 10px;
+    }
+    #links {
+        position:absolute;
+        right: 30px;
+        margin:20px;
+        font-size:18px;
+        text-align:center;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+    .outside-section{
+        clear:both;
+    }
+    .section{
+        float: left;
+        
+        width: 170px;
+        height: 59px;
+        color: #222;
+        font-size: 15px;
+        line-height: 16px;
+        vertical-align: middle;
+        /*border: 1px solid black;*/
+    }
+    .text{
+        height: 30px;
+        display: table-cell;
+        vertical-align: middle;
+        margin-left:50px;
+    }
+    .searchbox{
+        padding-right: 0px;
+    }
+    .searchbar{
+      position:relative;
+      /*border: 1px solid black;*/
+      width: 375px;
+      height: 29px;
+      outline: none;
+      padding: 1px 8px;
+    }
+    .input{
+        float: left;
+        width: 392px;
+        height: 59px;
+        vertical-align: middle;
+        /*border: 1px solid black;*/
+    }
+    .submit{
+        height:30px;
+        right:0;
+        background-color: #4d90fe;
+        border: 1px solid #3079ed;
+        color: white;
+    }
+    .logo-subtext {
+        color: #4285f4;
+        font: 16px/16px roboto-regular, arial, sans-serif;
+        left: 170px;
+        position: absolute;
+        bottom: 15px;
+        width:130px;
+        /*border: 1px solid black;*/
+    }
+    .logo {
+        position:relative;
+        /*border: 1px solid;*/
+        margin-left: auto;
+        margin-right: auto;
+        height:200px;
+        width: 200px;
+        bottom:15px;
+    }

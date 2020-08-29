@@ -1,0 +1,75 @@
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+    }
+    
+    .middle {
+    display: table-cell;
+    vertical-align: middle;
+    }
+    
+    .inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 582px;
+    height: 190px;
+    /*border: 1px solid*/
+    }
+    #searchbutton {
+        border-radius: 7px;
+        border:0;
+        width: 200px;
+        outline: none;
+        text-align:center;
+        font-family: 'Montserrat', sans-serif;
+        height:50px;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left:191px;
+        padding:10px;
+    }
+    #form {
+     position:relative;
+     top: 20px;
+    }
+    #links {
+        position:absolute;
+        right: 30px;
+        margin:20px;
+        font-size:18px;
+        text-align:center;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+    #searchbar {
+      position:relative;
+      border-radius: 15px;
+      border: 1px solid black;
+      padding: 10px;
+      width: 582px;
+      height: 44px;
+      outline: none;
+    }
+    
+    
+    .logo-subtext {
+        color: #4285f4;
+        font: 16px/16px roboto-regular, arial, sans-serif;
+        left: 170px;
+        position: absolute;
+        bottom: 15px;
+        margin-right:100px; 
+    }
+    .logo {
+        position:relative;
+        /*border: 1px solid;*/
+        margin-left: auto;
+        margin-right: auto;
+        height:200px;
+        width: 200px;
+    }

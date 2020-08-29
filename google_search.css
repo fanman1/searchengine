@@ -1,0 +1,81 @@
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+   
+   }
+   
+   .middle {
+    display: table-cell;
+    vertical-align: middle;
+   }
+   
+   .inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 582px;
+    height: 190px;
+    /*border: 1px solid;*/
+   }
+   .logo {
+       position:relative;
+       /*border: 1px solid;*/
+       margin-left: auto;
+       margin-right: auto;
+       height:140;
+       width: 548px;
+       top:20px;
+   }
+   #searchbutton {
+       float:left;
+       border-radius: 7px;
+       border:0;
+       /*left:206px;*/
+       width: 170px;
+       outline: none;
+       margin-left:100px;
+       text-align:center;
+       font-family: 'Montserrat', sans-serif;
+       height:50px;
+       font-size: 15px;
+       cursor: pointer;
+   }
+   #feeling_lucky {
+       float:right;
+       margin-right: 100px;
+       border-radius: 7px;
+       outline: none;
+       text-align: center;
+       width: 170px;
+       height:50px;
+       font-family: 'Montserrat', sans-serif;
+       border:0;
+       font-size: 15px;
+       cursor: pointer;
+   }
+   #form {
+       position:relative;
+       top:50px;
+   }
+   #links {
+       position:absolute;
+       right: 30px;
+       margin:20px;
+       font-size:18px;
+       text-align:center;
+       font-family: 'Montserrat', sans-serif;
+       
+   }
+   #searchbar {
+     position:relative;
+     border-radius: 15px;
+     border: 1px solid black;
+     padding: 10px;
+     width: 582px;
+     height: 44px;
+     outline: none;
+     /*right:100px;*/
+   }
